@@ -24,6 +24,6 @@ Refer to the following link about morphology: https://www.mathworks.com/help/ima
 
 9_1. Instead of using the area of the rectangle, size of the rectangle (width and height) could be used. I have commented this section.
 
-10. It saves the images of the intruder in your folder(hardisk). It auotomatically generates a jpg image. The format of the file name is 'year month day hour min sec'
+10. It saves the images of the intruder in your folder(hardisk). It auotomatically generates a jpg image. The format of the file name is 'year month day hour min sec.jpg'
 
 
