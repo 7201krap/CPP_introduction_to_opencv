@@ -10,7 +10,7 @@ Visual Studio is used for the program development. OpenCV version: 4.4.0
 
 3. Make both frame as a binary image. It reduces the computational complexity as well as easier to detect blobs.
 
-4. By some environmental effects, the background of the frame would be changed such as direction of sunlight. Also, some objects in the previous frame could be removed such as trash bin. Therefore, it is necessary to gradually update from the previous frame to the current frame. This is implemented by 'addWeighted' 
+4. By some environmental effects, the background of the frame would be changed such as direction of the sunlight. Also, some objects in the previous frame could be removed such as trash bin. Therefore, it is necessary to gradually update from the previous frame to the current frame. This is implemented by 'addWeighted' 
 
 5. Calculate | previous frame - current frame | by using 'absdiff'
 
