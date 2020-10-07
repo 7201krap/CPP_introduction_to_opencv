@@ -1,7 +1,5 @@
 ## OpenCV_Intruder_dectection <침입자 검출 시스템>
 
-### How to set up the environment to run this:
-
 ### How does this program works:
 
 1. Get a webcam video. (This is can be changed to an another camera such as a CCTV. You can do this by changing parameter in 'VideoCapture') 
@@ -16,7 +14,7 @@
 
 6. Before this program detects the intruder, noise removal is essential. Therefore it thresholds minor noises. The threshold parameter is 'TH1' and the parameter should be changed depending on the circumstances.
 
-7. Use a morphology method (MORPH_OPEN : erosion -> dilation) to reduce some noises. I'm not sure how to use this in proper way.
+7. Used a morphology method (MORPH_OPEN : erosion -> dilation) to reduce some noises. I'm not sure how to use this in proper way.
 Refer to the following link about morphology: https://www.mathworks.com/help/images/morphological-dilation-and-erosion.html
 8. Draw contours by using 'findContours' and absdiffed frame.
 
