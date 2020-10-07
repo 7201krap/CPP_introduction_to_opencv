@@ -19,12 +19,12 @@ void draw_rect(Mat& img, vector<Rect>& v_rect) {
 int main() {
 
 	// These are magic values 
-	int TH1 = 70;	// 이 변수를 너무 낮게 잡으면 조그마한 변화에도 그것이 intruder 라고 생각한다. // you might need to change this value 
+	int TH1 = 60;	// 이 변수를 너무 낮게 잡으면 조그마한 변화에도 그것이 intruder 라고 생각한다. // you might need to change this value 
 	int TH_WIDTH;
 	int TH_HEIGHT;
 	int TH_AREA;
 	double detection_ratio = 0.02;	// you might need to change this value 
-	double detection_area = 0.0001;	// you might need to change this value 
+	double detection_area = 0.01;	// you might need to change this value 
 	double alpha = 0.01;
 	double beta = 1.0 - alpha;
 	// These are magic values 
