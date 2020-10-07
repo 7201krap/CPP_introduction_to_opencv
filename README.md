@@ -2,7 +2,7 @@
 
 ### How does this program works:
 
-1. Get a webcam video. (This is can be changed to an another camera such as a CCTV. You can do this by changing parameter in 'VideoCapture') 
+1. Get a webcam video frame. (This is can be changed to an another camera such as a CCTV. You can do this by changing parameter in 'VideoCapture') 
 
 2. It detects an intruder by comparing the previous frame and the current frame. Therefore, clone the current frame to the old frame (previous frame)
 
