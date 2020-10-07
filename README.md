@@ -16,7 +16,7 @@ Visual Studio is used for the program development. OpenCV version: 4.4.0
 
 6. Before this program detects the intruder, noise removal is essential. Therefore it thresholds minor noises. The threshold parameter is 'TH1' and the parameter should be changed depending on the circumstances.
 
-7. Used a morphology method (MORPH_OPEN : erosion -> dilation) to reduce some noises. I'm not sure how to use this in proper way.
+7. Used a morphology method (MORPH_OPEN : erosion -> dilation) to reduce some noises. I'm not sure how to use this in a proper way.
 Refer to the following link about morphology: https://www.mathworks.com/help/images/morphological-dilation-and-erosion.html
 8. Draw contours by using 'findContours' and absdiffed frame.
 
