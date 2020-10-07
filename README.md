@@ -1,4 +1,6 @@
-## OpenCV_Intruder_dectection <침입자 검출 시스템>
+## OpenCV Introduction 
+
+### OpenCV_Intruder_dectection <침입자 검출 시스템>
 
 Visual Studio is used for the program development. OpenCV version: 4.4.0
 
