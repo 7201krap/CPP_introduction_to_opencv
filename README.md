@@ -1,5 +1,7 @@
 ## OpenCV_Intruder_dectection <침입자 검출 시스템>
 
+### Visual Studio is used for the program development. OpenCV version: 4.4.0
+
 ### How does this program works:
 
 1. Get a webcam video frame. (This is can be changed to an another camera such as a CCTV. You can do this by changing parameter in 'VideoCapture') 
