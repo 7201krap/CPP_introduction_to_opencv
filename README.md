@@ -8,7 +8,7 @@ Basic introduction to OpenCV
 
 Visual Studio is used for the program development. OpenCV version: 4.4.0
 
-### How does this program works:
+### How does this program work:
 
 1. Get webcam video frames. (This is can be changed to an another camera such as a CCTV. You can do this by changing parameter in 'VideoCapture') 
 
